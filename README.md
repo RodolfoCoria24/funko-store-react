@@ -7,7 +7,9 @@ Aplicación web tipo ecommerce desarrollada con React que simula una tienda onli
 ## 🌐 Live Demo
 
 🔗 https://funko-store-react.netlify.app/
+ ## 📸 Preview
 
+![Funko Store Preview](./funko-store.jpeg)
 ---
 
 ## ⚙️ Tech Stack
