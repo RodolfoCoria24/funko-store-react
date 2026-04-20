@@ -15,7 +15,7 @@ Aplicación web tipo ecommerce desarrollada con React que simula una tienda onli
 ## ⚙️ Tech Stack
 
 * React
-* JavaScript (ES6+)
+* JavaScript
 * CSS3
 * Vite
 
