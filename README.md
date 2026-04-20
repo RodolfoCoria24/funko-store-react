@@ -1,16 +1,78 @@
-# React + Vite
+# 🛒 Funko Store — React Ecommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web tipo ecommerce desarrollada con React que simula una tienda online de productos Funko Pop. El proyecto está enfocado en la gestión de estado, experiencia de usuario y construcción de interfaces modernas.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+🔗 https://funko-store-react.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript (ES6+)
+* CSS3
+* Vite
+
+---
+
+## ✨ Features
+
+* Gestión de carrito de compras (add/remove)
+* Renderizado dinámico de productos
+* Cálculo automático del total
+* Interfaz responsive
+* Actualización en tiempo real
+
+---
+
+## 🧩 Arquitectura
+
+El proyecto está estructurado en componentes reutilizables:
+
+* `Navbar` → navegación principal
+* `ProductList` → listado de productos
+* `Cart` → lógica y visualización del carrito
+
+---
+
+## 🚀 Getting Started
+
+```bash id="3qpxl2"
+git clone https://github.com/RodolfoCoria24/funko-store-react.git
+cd funko-store-react
+npm install
+npm run dev
+```
+
+---
+
+## 📦 Build
+
+```bash id="n7m8v1"
+npm run build
+```
+
+---
+
+## 📈 Roadmap
+
+* Implementación de sistema de autenticación
+* Integración de pagos (Stripe / PayPal)
+* Filtros y búsqueda avanzada
+* Mejora de UI/UX (animaciones y feedback visual)
+
+---
+
+## 👨‍💻 Author
+
+Rodolfo Coria
+
+---
+
+## 📌 Notes
+
+Este proyecto fue desarrollado como parte de práctica en desarrollo frontend, enfocado en mejorar habilidades en React y lógica de aplicaciones web.
